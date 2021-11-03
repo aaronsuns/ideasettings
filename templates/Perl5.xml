@@ -47,4 +47,10 @@
       <option name="PERL5" value="true" />
     </context>
   </template>
+  <template name="lcr" value="logprint(LOG_CRIT, '$MESSAGE$');" description="logprint(LOG_CRIT,'')" toReformat="true" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="&quot;ysumessage&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PERL5" value="true" />
+    </context>
+  </template>
 </templateSet>
