@@ -1,0 +1,50 @@
+<templateSet group="Perl5">
+  <template name="l2" value="logprint(LOG_DBG2, '$MESSAGE$');" description="logprint(LOG_DBG2,'')" toReformat="true" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PERL5" value="true" />
+    </context>
+  </template>
+  <template name="l3" value="logprint(LOG_DBG3, '$MESSAGE$');" description="logprint(LOG_DBG3,'')" toReformat="true" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PERL5" value="true" />
+    </context>
+  </template>
+  <template name="l1" value="logprint(LOG_DBG1, '$MESSAGE$');" description="logprint(LOG_DBG1,'')" toReformat="true" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="&quot;ysumessage&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PERL5" value="true" />
+    </context>
+  </template>
+  <template name="lf3" value="logprintf(LOG_DBG3,'%s', $V$);" description="logprintf(LOG_DBG3,'%s', $v)" toReformat="true" toShortenFQNames="true">
+    <variable name="V" expression="" defaultValue="&quot;$&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PERL5" value="true" />
+    </context>
+  </template>
+  <template name="lf1" value="logprintf(LOG_DBG3,'%s', $V$);" description="logprintf(LOG_DBG1,'%s', $v)" toReformat="true" toShortenFQNames="true">
+    <variable name="V" expression="" defaultValue="&quot;$&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PERL5" value="true" />
+    </context>
+  </template>
+  <template name="lf2" value="logprintf(LOG_DBG3,'%s', $V$);" description="logprintf(LOG_DBG2,'%s', $v)" toReformat="true" toShortenFQNames="true">
+    <variable name="V" expression="" defaultValue="&quot;$&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PERL5" value="true" />
+    </context>
+  </template>
+  <template name="li" value="logprint(LOG_INFO, '$MESSAGE$');" description="logprint(LOG_INFO,'')" toReformat="true" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="&quot;ysumessage&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PERL5" value="true" />
+    </context>
+  </template>
+  <template name="ae" value="AssertEquals(1, $var$);" description="AssertEquals(1, $var$);" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PERL5" value="true" />
+    </context>
+  </template>
+</templateSet>
