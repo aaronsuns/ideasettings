@@ -1,0 +1,14 @@
+<application>
+  <component name="SettingsState">
+    <option name="gitlabServers">
+      <list>
+        <GitlabServer>
+          <option name="apiToken" value="4z3Vj1_NJDEv2f-33edP" />
+          <option name="apiUrl" value="https://gitlab.vizrt.com/" />
+          <option name="removeSourceBranch" value="false" />
+          <option name="repositoryUrl" value="gitlab.vizrt.com" />
+        </GitlabServer>
+      </list>
+    </option>
+  </component>
+</application>
