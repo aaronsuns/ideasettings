@@ -1,6 +1,5 @@
 <templateSet group="Android">
   <template name="key" value="private static final String KEY_$value$ = &quot;$value$&quot;;" description="Key for a bundle" toReformat="true" toShortenFQNames="true">
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>

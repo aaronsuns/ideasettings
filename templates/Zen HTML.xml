@@ -1,5 +1,7 @@
 <templateSet group="Zen HTML">
   <template name="!!!" value="&lt;!doctype html&gt;" description="&lt;!doctype html&gt;" toReformat="true" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
   </template>
 </templateSet>
