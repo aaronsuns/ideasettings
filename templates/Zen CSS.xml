@@ -1,0 +1,9 @@
+<templateSet group="Zen CSS">
+  <template name="ap" value="appearance:$VALUE$;" description="appearance:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="&quot;none&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="cp" value="clip: $END$;" description="clip:...;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

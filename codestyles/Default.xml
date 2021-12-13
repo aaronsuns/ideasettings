@@ -1,0 +1,9 @@
+<code_scheme name="Default" version="173">
+  <Perl5CodeStyleSettings>
+    <option name="ELSE_ON_NEW_LINE" value="false" />
+  </Perl5CodeStyleSettings>
+  <codeStyleSettings language="Perl5">
+    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
+    <option name="SPACE_WITHIN_IF_PARENTHESES" value="true" />
+  </codeStyleSettings>
+</code_scheme>

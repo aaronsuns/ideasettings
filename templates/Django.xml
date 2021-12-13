@@ -1,0 +1,11 @@
+<templateSet group="Django">
+  <template name="for" value="{% for $VAR$ in $COLLECTION$ %}&#10;$END$&#10;{% endfor %}&#10;" description="{% for %} / {% endfor %}" toReformat="false" toShortenFQNames="true">
+    <variable name="COLLECTION" expression="djangoVariable()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="collectionElementName(COLLECTION)" defaultValue="&quot;foo&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="if" value="{% if $VARIABLE$ %}&#10;$END$&#10;{% endif %} " description="{% if %} / {% endif %}" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="djangoVariable()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
